@@ -43,7 +43,7 @@ My laundry list that I needed to migrate:
         This was oddly very tricky. After many hours of struggling I found that if you are logged in directly on the server, then remoting in gets all confused and does not work. Later I accidently sourced a non-existant path in my home .profile - which has no issue during login but xrdp would not launch. Took me a while to troubleshoot that - why make something break due to a user's .profile? There must be some reason - but this effort altogether took way too much time and effort. Now I have gone and commented out xrdp's startup so it does not source user home .profile at all.<br>
         I hit several other snags along the way and each was very hard to troubleshoot, config files in etc, sudo-ing, checking logs, but the .profile one was key.<br>Once this was figured out, xrdp works very well - but I wanted the install to be a no-brainer and it hurt my brain.<br>
 
-   b. Windows startup with UI and Services
+   b. Startup with UI and Services
       - **Windows: 2**<br>
         Setting up autologin in windows was quite simple and worked flawlessly.<br>
         Then having taskscheduler launch services was also pretty sane. But once WSL came along I moved a number of items into systemd and cron within WSL. That made it even more solid. <br>
