@@ -73,7 +73,7 @@ My laundry list that I needed to migrate:
 
    f. Port forwarding WSL
       - **Windows: 2**<br>
-        While you can run all sorts of services in WSL, it needs to be port forwarded using admin netsh. This was always painful and was also confusing to keep in sync when starting new things and decommissioning old.
+        While you can run all sorts of services in WSL, it needs to be port forwarded using admin `netsh`. This was always painful and was also confusing to keep in sync when starting new things and decommissioning old.
       - **Linux: 5**<br>
         No such issues running services. Only thing I ever had to do was to knock down the ability for non-root to use ports down to 80 (`net.ipv4.ip_unprivileged_port_start=80`). And it is an internal personal server that is not exposed in anyway to internet etc.
 
