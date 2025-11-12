@@ -8,7 +8,7 @@ So with the recent Win 10 end of life and no path to upgrade to windows 11 (doub
 
 # TL;DR
 
-Summary is that my windows setup while glitchy in cases scored a 64, and moving to linux improved it to 71. So, it is better but not by a whole lot. In some sense I would have stuck with Windows if upgrade path was clear and available.
+Summary is that my windows setup while glitchy in cases scored a 68, and moving to linux improved it to 76. So, it is better but not by a whole lot. In some sense I would have stuck with Windows if upgrade path was clear and available and avoided the hassle. But I love hassle 😂
 
 | Index | Feature | Windows Score | Linux Score | 
  | ----- | ----- | ----- | ----- | 
@@ -29,7 +29,7 @@ Summary is that my windows setup while glitchy in cases scored a 64, and moving 
 | 7e | Development Tools: Podman | 5 | 5 | 
 | 8 | Overall Stability | 3 | 5 | 
 | 9 | Overall Repeatability | 3 | 5 | 
-| **TOTAL SCORE** | (Out of 80) | **64** | **71** |
+| **TOTAL SCORE** | (Out of 80) | **68** | **76** |
 
 # My thoughts on of each of the items above
 My laundry list that I needed to migrate:
